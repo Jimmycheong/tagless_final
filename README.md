@@ -14,3 +14,11 @@ benefit of writing tests purely on a service level.
 
 Resources: 
 1. https://www.becompany.ch/en/blog/2018/06/21/tagless-final 
+
+
+
+## Extras
+
+For learning how to write your own 'syntax' for DSLs (essentially implicit classes), 
+check out 54:35 of John De Goes' video on FP: https://youtu.be/sxudIMiOo68?t=3275
+ 

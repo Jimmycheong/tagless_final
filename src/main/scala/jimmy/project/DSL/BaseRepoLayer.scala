@@ -10,6 +10,8 @@ trait BaseRepoLayer[F[_]] {
 
   def addNewCustomer(customer: Customer): F[Either[String, Customer]]
 
-  def removeCustomer(UUID: UUID): F[Either[String, Customer]]
 }
 
+object BaseRepoLayer {
+  def apply[F[_]](C: BaseRepoLayer[F]): BaseRepoLayer[F] = C
+}
